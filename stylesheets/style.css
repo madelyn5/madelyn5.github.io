@@ -31,12 +31,12 @@ div.header {
 }
 
 img.header{
-    width: 10%;
+    width: max(10%, 70px);
     height: auto;
     float: left;
 }
 
 h1.header{
-    font-size: 3vw;
+    font-size: max(3vw, 25px);
     margin-top: 1%;
 }
