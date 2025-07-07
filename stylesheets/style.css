@@ -20,6 +20,7 @@ body {
     text-decoration: none;
     padding-right: 3%;
     padding-left: 3%;
+    font-size: max(1.3vw, .8em);
 }
 
 div.header {
@@ -35,3 +36,7 @@ img.header{
     float: left;
 }
 
+h1.header{
+    font-size: 3vw;
+    margin-top: 1%;
+}
