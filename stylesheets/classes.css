@@ -1,0 +1,40 @@
+div.main{
+    width: 100%;
+    background-image: url("../images/dna_bg.jpg");
+    background-size: cover;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+    overflow: hidden;
+}
+
+div.left{
+    width: 30%;
+    margin-left: 6%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    float: left;
+    border-style: solid;
+    border-color: black;
+    padding: 3%;
+    background-color: white;
+}
+
+div.right{
+    width: 30%;
+    margin-right: 6%;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    border-style: solid;
+    border-color: black;
+    padding: 3%;
+    background-color: white;
+    float: right;
+}
+
+h1.left{
+    text-align: center;
+}
+
+h1.right{
+    text-align: center;
+}

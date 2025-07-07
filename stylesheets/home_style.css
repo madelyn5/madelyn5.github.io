@@ -1,0 +1,111 @@
+.main{
+    overflow: hidden;
+    background-image: url("../images/DNA.jpg");
+    background-size: cover;
+}
+
+
+#MadelynImage {
+    width: 30%;
+    height: auto;
+    margin: 2%;
+    float: left;
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+
+}
+
+div.bio {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 2px;
+    border-color: white;
+    border-style: solid;
+    border-width: 5px;
+    text-align: center;
+    overflow: hidden;
+}
+
+p.bio{
+    font-size: xx-large;
+    font-size: 2em;
+}
+
+h1.bio{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+    padding: 0;
+}
+
+.right{
+    float: right;
+    width: 35%;
+    margin-right: 15%;
+    margin-top: 5%;
+}
+
+#about_me{
+    margin-right: 60%;
+    margin-left: 40%;
+    width: 25%;
+    margin-top: 3%;
+    padding: 2%;
+    font-size: 1em;
+}
+
+.recents{
+    background-color: rgb(206, 206, 206);
+    margin: 0;
+    padding: 5%;
+    overflow: hidden;
+}
+
+img.bottom{
+    width: 100%;
+    height: auto;
+}
+
+div.class{
+    float: left;
+    border-style: solid;
+    width: 30%;
+    padding: 2%;
+    background-color: white;
+    margin-left: 5%;
+    height: 550px;
+}
+
+div.experience{
+    float: right;
+    margin-right: 5%;
+    border-style: solid;
+    width: 30%;
+    padding: 2%;
+    background-color: white;
+    height: 550px;
+}
+
+h1.bottom{
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2.bottom{
+    padding: 0;
+    margin-top: 0;
+    text-align: center;
+    color: rgb(69, 69, 69)
+}
+
+p.bottom{
+    text-align: center;
+}
+
+button.bottom{
+    margin-left: 30%;
+    margin-top: 1%;
+    width: 40%;
+    padding: 2%;
+}

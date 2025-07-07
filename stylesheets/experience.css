@@ -1,0 +1,38 @@
+div.main{
+    width: 100%;
+    background-image: url("../images/dna_bg.jpg");
+    background-size: cover;
+    background-color: rgba(255,255,255,0.3);
+    background-blend-mode: lighten;
+    overflow: hidden;
+}
+
+.box{
+    width: 80%;
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 3%;
+    overflow: hidden;
+}
+
+h1.title{
+    font-size: 1.5em;
+}
+
+h2.place{
+    font-size: 1em;
+}
+
+
+p.date{
+    float: right;
+}
+
+.content{
+    float: left;
+    width: 50%;
+}
