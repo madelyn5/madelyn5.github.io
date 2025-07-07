@@ -11,26 +11,43 @@ div.content{
     background-color: white;
     width: 80%;
     overflow: hidden;
-    margin-top: 3em;
-    margin-bottom: 3em;
+    margin-top: 5%;
+    margin-bottom: 5%;
     margin-left: 5%;
     border-style: solid;
     border-color: black;
     border-width: .25em;
     padding: 5%;
-    
-
 }
 
+@media screen and (max-width: 600px){
+    img.content{
+        width: 80%;
+        margin-left: 10%;
+    }
+    p.content{
+        width: 80%;
+        font-size: 2.5vw;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    img.content{
+        width: 30%;
+        float: right;
+        
+    }
+    p.content{
+        width: 50%;
+        font-size: 1.5vw;
+    }
+}
+
+
 img.content{
-    width: 30%;
-    float: right;
+    
     border-style: solid;
     border-color: black;
     border-width: .25em;
-}
-
-p.content{
-    width: 50%;
-    font-size: 1.25em;
 }

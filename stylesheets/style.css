@@ -25,18 +25,19 @@ body {
 
 div.header {
     background-color: white;
-    border:0px;
     margin:0px;
-    padding: 10px 25px;
+    overflow: hidden;
 }
+
 
 img.header{
     width: max(10%, 70px);
     height: auto;
+    margin:0;
     float: left;
 }
 
 h1.header{
     font-size: max(3vw, 25px);
-    margin-top: 1%;
+    margin-top:1%;
 }
