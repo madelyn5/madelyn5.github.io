@@ -20,30 +20,6 @@ div.content{
     padding: 5%;
 }
 
-@media screen and (max-width: 600px){
-    img.content{
-        width: 80%;
-        margin-left: 10%;
-    }
-    p.content{
-        width: 80%;
-        font-size: 2.5vw;
-        margin-left: 15%;
-    }
-}
-
-@media screen and (min-width: 600px){
-    img.content{
-        width: 30%;
-        float: right;
-        
-    }
-    p.content{
-        width: 50%;
-        font-size: 1.5vw;
-    }
-}
-
 
 img.content{
     
@@ -63,4 +39,50 @@ button.content{
 
 a.content{
     text-decoration: none;
+}
+
+h1.content{
+    text-align: center;
+    color: rgb(71, 71, 71);
+    margin-bottom: 5%;
+    font-size: max(3vw, 1.75em);
+}
+
+.paper_name{
+    font-weight: bold;
+    font-size: max(1.5vw, .75em);
+}
+
+.authors{
+    margin-left: 5%;
+    font-size: max(1.2vw, .6em);
+}
+
+.paper_link{
+    margin-left: 5%;
+    font-size: max(1.2vw, .6em);
+}
+
+@media screen and (max-width: 600px){
+    img.content{
+        width: 80%;
+        margin-left: 10%;
+    }
+    p.content{
+        width: 80%;
+        font-size: 2vw;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (min-width: 600px){
+    img.content{
+        width: 30%;
+        float: right;
+        
+    }
+    p.content{
+        width: 50%;
+        font-size: max(1.5vw, .75em);
+    }
 }

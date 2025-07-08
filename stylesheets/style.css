@@ -40,4 +40,17 @@ img.header{
 h1.header{
     font-size: max(3vw, 25px);
     margin-top:1%;
+    color: rgb(71, 71, 71)
+}
+
+@media screen and (min-width: 600px) {
+    h1.header{
+        margin-top:1%;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h1.header{
+        margin-top:2%;
+    }
 }
