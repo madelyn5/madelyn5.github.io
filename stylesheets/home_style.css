@@ -199,8 +199,6 @@ p.bottom{
 
 button.bottom{
     margin-top: 10%;
-    width: 40%;
-    min-width: 100px;
-    padding: 2%;
-    font-size: max(1vw, .75em);
+    padding: 5px;
+    font-size: max(1.5vw, .75em);
 }

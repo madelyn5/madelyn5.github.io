@@ -15,24 +15,65 @@ div.main{
     margin-left: 5%;
     margin-top: 5%;
     margin-bottom: 5%;
-    padding: 3%;
     overflow: hidden;
-}
-
-h1.title{
-    font-size: 1.5em;
-}
-
-h2.place{
-    font-size: 1em;
+    padding: 5%;
 }
 
 
-p.date{
-    float: right;
+@media screen and (min-width: 600px){
+    h1.title{
+        font-size: 2.3vw;
+        width: 60%;
+    }
+
+    h2.place{
+        font-size: 1.5vw;
+        color: rgb(76, 76, 76);
+    }
+
+    p.date{
+        font-size: 1.4vw;
+    }
+
+    .description{
+        font-size: 1.4vw;
+    }
+
+    .row{
+        display: flex;
+        justify-content: space-between;
+    }
+    .button{
+        font-size: 1.25vw;
+        border-radius: 10px;
+        color: white;
+        background-color: rgb(10, 76, 134);
+    }
+
 }
 
-.content{
-    float: left;
-    width: 50%;
+@media screen and (max-width: 600px){
+    .title{
+        text-align: center;
+    }
+    .date{
+        text-align: center;
+    }
+    .place{
+        text-align: center;
+    }
+
+    .button{
+        font-size: max(1.25vw, 1em);
+        border-radius: 10px;
+        color: white;
+        text-decoration: none;
+        overflow: hidden;
+        display: block;
+        margin: 0 auto;
+    }
+
+    button.button{
+        background-color: rgb(10, 76, 134);
+    }
 }
