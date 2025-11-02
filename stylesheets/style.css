@@ -31,9 +31,9 @@ div.header {
 
 
 img.header{
-    width: max(10%, 70px);
+    width: max(7%, 50px);
     height: auto;
-    margin:0;
+    margin: 5px;;
     float: left;
 }
 
