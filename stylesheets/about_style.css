@@ -72,6 +72,11 @@ h1.content{
         margin-left: 5%;
         font-size: 2.5vw;
     }
+    .review{
+        margin-left: 5%;
+        font-size: 2.5vw;
+        font-style: italic;
+    }
 }
 
 @media screen and (min-width: 600px){
@@ -98,5 +103,10 @@ h1.content{
     .paper_link{
         margin-left: 5%;
         font-size: max(1.2vw, .6em);
+    }
+    .review{
+        margin-left: 5%;
+        font-size: max(1.2vw, .6em);
+        font-style: italic;
     }
 }
