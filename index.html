@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Madelyn's Personal Site</title>
-    <link rel="icon" type="image/x-icon" href="images/logo.png">
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css">
@@ -14,7 +14,7 @@
     
     <div class="header">
         <a href="index.html" >
-            <img src="images/logo.png" class="header">
+            <img src="images/logo.svg" class="header">
         </a>
         <h1 class="header">Madelyn Warr</h1>
         
@@ -32,7 +32,7 @@
             <div class="right">
                 <div class="bio">
                     <h1 class="bio">Madelyn Warr</h1>
-                    <p class="bio">Mathematics Student and Algorithms Researcher</p>
+                    <p class="bio">Mathematics Student and Researcher</p>
                 </div>
                 <a href="about.html">
                     <button type="button" id="about_me">About Me</button>
@@ -40,26 +40,34 @@
             </div>
         </div>
     </div>
-    <div class="recents">
-        <div class="class">
-            <h1 class="bottom">Recent Class</h1>
-            <h2 class="bottom">Intro to Graph Theory</h2>
-            <p class="bottom">I took graph theory during the spring 2025 semester. In this class, I learned about many prominent graph theory definitions and theorems. I also gained experience writing formal proofs.</p>
-            <img class="bottom" src="images/graph.jpg" alt="Glowing graph">
-            <a href="classes.html">
-                <button type="button" class="bottom">View More</button>
-            </a>
+    <h1 class="photo-header">Photo Gallery</h1>
+    <div class="photo-grid">
+        <div class="column">
+            <div class="right_photos">
+                <div class="photo-card">
+                    <img src="images/bozeman_poster.jpg" alt="Madelyn standing next to poster">
+                    <p class="caption">We presented the poster "Using Co-Linear Chaining of CREs to Predict Relations Between ACRs" at an undergraduate poster session at Montana State University in August 2025.</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/honolulu_presentation.jpg" alt="Madelyn giving presentation">
+                    <p class="caption">Madelyn presented joint work on using co-linear chaining to predict accessible chromatin regions at the International Conference of Bioinformatics 2026 in Honolulu, Hawaii.</p>
+                </div>
+            </div>
         </div>
-        <div class="experience">
-            <h1 class="bottom">Recent Experience</h1>
-            <h2 class="bottom">Algorithms REU at MSU</h2>
-            <p class="bottom">I participated in an algorithms-focused REU (Research Experience for Undergrads) at Montana State University. Here, I investigated whether an algorithm, co-linear chaining, could predict accessible chromatin regions.</p>
-            <img class="bottom" src="images/bozeman.jpg" alt="Glowing graph">
-            <a href="experience.html">
-                <button type="button" class="bottom" id="bozeman">View More</button>
-            </a>
+        <div class="column">
+            <div class="left_photos">
+                <div class="photo-card">
+                    <img src="images/bozeman.jpg" alt="Madelyn in Bozeman, MT">
+                    <p class="caption">Madelyn participated in a Research Experience for Undergraduates (REU) in the summer of 2026 in Bozeman, Montana.</p>
+                </div>
+                <div class="photo-card">
+                    <img src="images/tip_group.jpg" alt="The Theory in Practice group at the University of Utah">
+                    <p class="caption">The Theory in Practice group at the University of Utah, led by Dr. Blair Sullivan, studies parameterized algorithms, graph modification, and scalable network analysis. </p>
+                </div>
+            </div>
         </div>
     </div>
+            
 </body>
 
 </html>

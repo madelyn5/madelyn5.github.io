@@ -2,12 +2,11 @@
 body {
     margin: 0%; 
     font-family: Verdana, sans-serif;
-    
 }
 
 
 .navbar {
-    background-color: #333;
+    background-color: #384959;
     text-align: center;
     padding: 15px;
     border: 0px;
@@ -24,23 +23,23 @@ body {
 }
 
 div.header {
-    background-color: white;
+    background-color:rgb(235, 235, 235);
     margin:0px;
     overflow: hidden;
 }
 
 
 img.header{
-    width: max(7%, 50px);
+    width: max(5%, 40px);
     height: auto;
-    margin: 5px;;
+    margin: 15px;;
     float: left;
 }
 
 h1.header{
     font-size: max(3vw, 25px);
     margin-top:1%;
-    color: rgb(71, 71, 71)
+    color: #384959;
 }
 
 @media screen and (min-width: 600px) {
