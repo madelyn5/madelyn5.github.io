@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80.95 81.59">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+      }
+
+      .cls-2 {
+        fill: #808285;
+      }
+
+      .cls-3 {
+        fill: #2e3192;
+      }
+
+      .cls-4, .cls-5, .cls-6, .cls-7 {
+        fill: none;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4, .cls-6 {
+        stroke: #808285;
+      }
+
+      .cls-5 {
+        stroke: #231f20;
+      }
+
+      .cls-6 {
+        stroke-dasharray: 3 3;
+      }
+
+      .cls-7 {
+        stroke: #2e3192;
+      }
+    </style>
+  </defs>
+  <line class="cls-5" x1="4.19" y1="76.8" x2="31.19" y2="49.8"/>
+  <g>
+    <line class="cls-5" x1="49.19" y1="31.8" x2="71.92" y2="9.06"/>
+    <path class="cls-1" d="M76.19,4.8c-1.26,2.75-2.48,6.52-2.68,9.41l-2.15-4.58-4.58-2.15c2.89-.2,6.65-1.42,9.41-2.68Z"/>
+  </g>
+  <g>
+    <line class="cls-4" x1="76.19" y1="70.76" x2="76.19" y2="69.26"/>
+    <line class="cls-6" x1="76.19" y1="66.26" x2="76.19" y2="7.8"/>
+    <line class="cls-4" x1="76.19" y1="6.3" x2="76.19" y2="4.8"/>
+    <path class="cls-2" d="M76.19,76.8c1.05-2.84,2.85-6.36,4.76-8.55l-4.76,1.72-4.75-1.72c1.9,2.18,3.7,5.71,4.75,8.55Z"/>
+  </g>
+  <g>
+    <line class="cls-7" x1="8.46" y1="9.06" x2="76.19" y2="76.8"/>
+    <path class="cls-3" d="M4.19,4.8c1.26,2.75,2.48,6.52,2.68,9.41l2.15-4.58,4.58-2.15c-2.89-.2-6.65-1.42-9.41-2.68Z"/>
+  </g>
+</svg>

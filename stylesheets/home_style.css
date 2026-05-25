@@ -39,6 +39,24 @@
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         border-radius: 10px;
     }
+
+    .photo-header {
+        text-align: center;
+        font-size: 40px;
+        color: #384959;
+    }
+
+    .right_photos,
+    .left_photos {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+    }
+
+    .photo-card{
+        
+        width: 30%;
+    }
 }
 
 @media screen and (max-width: 600px){
@@ -67,13 +85,31 @@
         margin-top: 3%;
         margin-bottom: 3%;
         padding: 2%;
-        font-size: 2vw;
+        font-size: max(2vw, 15px);
         
         border: 1px solid #ddd;
         box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         border-radius: 10px;
     }
     
+    .photo-header {
+        text-align: center;
+        font-size: 30px;
+        color: #384959;
+    }
+
+    .right_photos,
+    .left_photos {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .photo-card{
+        width: 80%;
+    }
+
 }
 
 
@@ -105,15 +141,9 @@ div.bio {
     flex-direction: column;
 }
 
-.right_photos,
-.left_photos {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-}
+
 
 .photo-card {
-    width: 30%;
     background: #fff;
     border: 1px solid #ddd;
     border-radius: 10px;
@@ -134,12 +164,7 @@ div.bio {
 }
 
 .caption {
-    font-size: max(.8vw, 10px);
+    font-size: 15px;
     color: #555;
 }
 
-.photo-header {
-    text-align: center;
-    font-size: 3vw;
-    color: #384959;
-}

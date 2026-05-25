@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Madelyn's Personal Site</title>
+    <link rel="icon" type="image/x-icon" href="images/logo.svg">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="stylesheets/style.css">
+    <link rel="stylesheet" href="stylesheets/projects_style.css">
+</head>
+
+<body>
+    
+    <div class="header">
+        <a href="index.html">
+            <img src="images/logo.svg" class="header">
+        </a>
+        <h1 class="header">Madelyn Warr</h1>
+        
+    </div>
+
+    <div class="main">
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Me</a>
+            <a href="projects.html">Research</a>
+            <a href="presentations.html">Presentations / Awards</a>
+        </div>
+    </div>
+
+    <div class="projects">
+        <div class="project-card">
+            
+
+            <div class="project-content">
+                <h2>Optimizing Paths for Cross Stitching</h2>
+                <h3>Collaborators: Calista Cannon and Victoria Kala*</h3>
+                <h3>May 2026 - Present</h3>
+                <p>
+                    Cross stitching is a fiber art form where the artist uses small “x” stitches to create a design. 
+                    Typically, cross-stitchers follow a pattern specifying the stitch placement on the front-facing side of the fabric, but little guidance is given on the path one should take to complete these stitches. 
+                    The objective of this project is to gain insight into path optimization given a cross-stitch pattern (front-facing design) and constraints related to commonly regarded best practices in cross-stitching.
+                </p>
+            </div>
+            <img src="images/stitch.svg" alt="Project 1 image" id="cross_stitch_image">
+        </div>
+
+        <div class="project-card">
+            
+
+            <div class="project-content">
+                <h2>Partitioning Graphs into Degenerate Subgraphs</h2>
+                <h3>Collaborators: Alex Crane, Carl Feghali, Felicia Lucke, Blair Sullivan*</h3>
+                <h3>April 2026 - Present</h3>
+                <p>
+                    Degeneracy is a measurement of the sparsity of a graph. A graph is <i>k</i>-degenerate if every induced subgraph has a vertex with degree at most <i>k</i>.
+                    Given degeneracies <i>p<sub>1</sub>, p<sub>2</sub>,..., p<sub>s</sub></i>, we consider the problem of partitioning a graph into <i>s</i> vertex sets <i>V<sub>1</sub>, V<sub>2</sub>,..., V<sub>s</sub></i>, where <i>G</i> induced on 
+                    <i>V<sub>i</sub></i> is <i>p<sub>i</sub></i>-degenerate for all <i>i</i>. We extend the hardness results of Khzam, Feghali, and Heggernes (linked below), proving NP-hardness for any sequence of degeneracy arguments when the max degree of the graph is above a specific threshold.
+                    <br><br>
+
+                    I designed the construction for the hardness reduction, using a gadget from Khzam, Feghali, and Heggernes.
+                </p>
+                <div class="project-links">
+                    <a href="https://www.sciencedirect.com/science/article/pii/S0195669819301167" target="_blank" rel="noopener noreferrer">[Khzam, Feghali, and Heggernes; 2020]</a>
+                </div>
+            </div>
+            <img src="images/degeneracy_partition_gadget.svg" alt="Project 2 image">
+        </div>
+        <div class="project-card">
+
+            <div class="project-content">
+                <h2>Closeness Centrality Equalization</h2>
+                <h3>Collaborators: Alex Crane, Freda Shi, Blair Sullivan*</h3>
+                <h3>August 2025 - March 2026</h3>
+                <p>
+                    One important problem in graph analysis is finding important, or well-connected, vertices. 
+                    Centrality metrics are one well-studied way to accomplish this. We build off the work of Crane, Friedler, Patel, and Sullivan (linked below).<br><br>
+                    
+                    Given some graph <i>G</i> and budget <i>k</i>, the task is to add at most <i>k</i> edges to <i>G</i>  to reduce the disparity in the closeness centralities in <i>G</i>.
+                    We develop a fixed-parameter tractable (FPT) algorithm parameterized by neighborhood diversity, making the problem efficiently solvable on graphs with limited structural diversity.
+                    We also prove that the decision version of this problem is NP-hard.<br><br>
+
+                    I designed the algorithm, and I worked closely with another undergraduate to develop the construction for the hardness reduction.
+                </p>
+
+                <div class="project-links">
+                    <a href="https://arxiv.org/abs/2505.06222" target="_blank" rel="noopener noreferrer">[Crane, Friedler, Patel, and Sullivan; 2025]</a>
+                </div>
+            </div>
+            
+            <img src="images/cc_hardness_gadget.svg" alt="Project 2 image">
+        </div>
+        <div class="project-card">
+
+            <div class="project-content">
+                <h2>Predicting ACRS with Co-Linear Chaining and Machine Learning</h2>
+                <h3>Collaborators: Trung Dinh, Bella Root, Elyse Onstott, Kevin Yu, Joann Mudge, Thiruvarangan Ramaraj, Indika Kahanda, Brendan Mumey*</h3>
+                <h3>June 2025 - March 2026</h3>
+                <p>
+                    Accessible chromatin regions (ACRs) are genomic regions which contain short, conserved DNA sequences essential to gene regulation. 
+                    We've developed a method of computationally predicting ACRs in plant pangenomes using machine learning and co-linear chaining, a well-studied algorithm in bioinformatics. 
+                    Given a genome with known coordinates of ACRs, we use co-linear chaining to obtain a similarity score between these ACRs and genomic regions with unknown chromatin accessibility. 
+                    We create feature vectors from these scores and use machine learning to classify the region as chromatin accessible or not.
+                    <br><br>
+
+                    I worked closely with another undergraduate to implement this pipeline, run experiments, and analyze and visualize the results.
+                </p>
+
+                <div class="project-links">
+                    <a href="https://www.biorxiv.org/content/10.64898/2026.02.05.703812v1" target="_blank" rel="noopener noreferrer">bioRxiv</a>
+                    <a href="https://github.com/msu-alglab/pan_ACR_pred" target="_blank" rel="noopener noreferrer">GitHub</a>
+                </div>
+            </div>
+            
+            <img src="images/chaining.svg" alt="Project 2 image">
+        </div>
+        <div class="project-card">
+
+            <div class="project-content">
+                <h2>Fast Heuristics for Fair Information Access</h2>
+                <h3>Collaborators: Dennis Robert Windham, Caroline J. Wendt, Alex Crane, Freda Shi, Sorelle A. Friedler, Blair D. Sullivan*, Aaron Clauset</h3>
+                <h3>November 2024 - February 2025</h3>
+                
+                <p>
+                    We consider the problem of selecting <i>k</i> seed nodes in a graph to maximize the minimum probability of activation under the independent cascade model (a framework to simulate information or disease spread). 
+                    We design and evaluate 10 inexact algorithms for this problem which are orders of magnitude faster than the current state-of-the-art, while retaining much of the performance.
+                    <br><br>
+
+                    I ran the experiments to validate the performance of these algorithms on very large networks.
+
+                </p>
+
+                <div class="project-links">
+                    <a href="https://journals.plos.org/complexsystems/article?id=10.1371/journal.pcsy.0000094" target="_blank" rel="noopener noreferrer">Publication</a>
+                </div>
+            </div>
+            
+            <img src="images/Fair_Info_Seeding.svg" alt="Project 2 image">
+        </div>
+        <p class="footnote">* = my primary advisor on the project</p>
+</body>

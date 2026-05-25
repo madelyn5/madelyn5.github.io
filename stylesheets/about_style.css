@@ -17,7 +17,7 @@ div.content{
     
     border: 1px solid #ddd;
     border-radius: 10px;
-     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
 
@@ -37,7 +37,7 @@ button.content{
     
 }
 
-a.content{
+a {
     text-decoration: none;
 }
 
@@ -45,12 +45,19 @@ h1.content{
     text-align: center;
     color: #384959;
     margin-bottom: 5%;
-    font-size: max(2vw, 20px);
+    font-size: max(2vw, 30px);
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.contact p {
+    margin: 0;
 }
 
 
-
-@media screen and (max-width: 600px){
+@media screen and (max-width: 800px){
     img.content{
         width: 80%;
         margin-left: 10%;
@@ -59,32 +66,37 @@ h1.content{
         width: 80%;
         font-size: max(1vw, 20px);
         margin-left: 10%;
-        font-family: 'Times New Roman', Times, serif;
     }
     .paper_name{
         font-size: max(1vw, 20px);
         font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
     }
     .authors{
         margin-left: 5%;
-        font-size: max(1vw, 20px);
-        font-family: 'Times New Roman', Times, serif;
+        font-size: max(1vw, 15px);
     }
     .paper_link{
         margin-left: 5%;
-        font-size: max(1vw, 20px);
-        font-family: 'Times New Roman', Times, serif;
+        font-size: max(1vw, 15px);
     }
     .review{
         margin-left: 5%;
-        font-size: max(1vw, 20px);
+        font-size: max(1vw, 15px);
         font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .contact {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 10px;
+        align-items: center;
+        width: 100%;
+        margin: 4%;
     }
 }
 
-@media screen and (min-width: 600px){
+@media screen and (min-width: 800px){
     img.content{
         width: 30%;
         float: right;
@@ -92,31 +104,34 @@ h1.content{
     }
     p.content{
         width: 50%;
-        font-size: max(1vw, 10px);
-        font-family: 'Times New Roman', Times, serif;
+        font-size:20px;
     }
 
     .paper_name{
         font-weight: bold;
-        font-size: max(1.5vw, .75em);
-        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
     }
 
     .authors{
         margin-left: 5%;
-        font-size: max(1.2vw, .6em);
-        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
     }
 
     .paper_link{
         margin-left: 5%;
-        font-size: max(1.2vw, .6em);
-        font-family: 'Times New Roman', Times, serif;
+        font-size: 15px;
     }
     .review{
         margin-left: 5%;
-        font-size: max(1.2vw, .6em);
+        font-size: 15px;
         font-style: italic;
-        font-family: 'Times New Roman', Times, serif;
+    }
+
+    .contact {
+        display: flex;
+        justify-content: space-between;
+        width: 50%;
+        margin: 2%;
+        margin-top: 5%;
     }
 }

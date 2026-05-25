@@ -19,7 +19,7 @@ body {
     text-decoration: none;
     padding-right: 3%;
     padding-left: 3%;
-    font-size: max(1.3vw, .8em);
+    font-size: max(1.3vw, 15px);
 }
 
 div.header {
@@ -42,12 +42,14 @@ h1.header{
     color: #384959;
 }
 
+/* screen is large */
 @media screen and (min-width: 600px) {
     h1.header{
         margin-top:1%;
     }
 }
 
+/* screen is small */
 @media screen and (max-width: 600px) {
     h1.header{
         margin-top:2%;
